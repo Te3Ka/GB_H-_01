@@ -11,6 +11,8 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
+Console.WriteLine("Программа показывает максимальное и минимальное число из двух целых чисел");
+
 Console.WriteLine("Введите два целых числа через Enter");
 Console.Write("Число 1 = ");
 int a = Int32.Parse(Console.ReadLine());

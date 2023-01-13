@@ -11,6 +11,8 @@
 7 -> нет
 */
 
+Console.WriteLine("Программа показывает, является ли введённое целое число чётным (делится на 2 без остатка)");
+
 Console.WriteLine("Введите одно целое число");
 Console.Write("Число = ");
 int num = Int32.Parse(Console.ReadLine());

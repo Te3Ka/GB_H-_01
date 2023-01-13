@@ -10,6 +10,8 @@
 22 3 9 -> 22
 */
 
+Console.WriteLine("Программа показывает максимальное число из трёх целых чисел");
+
 Console.WriteLine("Введите три целых числа через Enter");
 Console.Write("Число 1 = ");
 int num1 = Int32.Parse(Console.ReadLine());
