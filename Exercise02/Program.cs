@@ -21,15 +21,11 @@ int num2 = Int32.Parse(Console.ReadLine());
 Console.Write("Число 3 = ");
 int num3 = Int32.Parse(Console.ReadLine());
 
-if ((num1 >= num2) && (num1 >= num3))
-{
-    Console.WriteLine("Максимальное число = " + num1);
-}
-else if ((num2 >= num1) && (num2 >= num3))
-{
-    Console.WriteLine("Максимальное число = " + num2);
-}
-else if ((num3 >= num1) && (num3 >= num2))
-{
-    Console.WriteLine("Максимальное число = " + num3);
-}
+int max = num1;
+
+if (num2 > max)
+    max = num2;
+if (num3 > max)
+    max = num3;
+
+Console.WriteLine("Максимальное число = " + max);
