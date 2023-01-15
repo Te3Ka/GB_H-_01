@@ -27,7 +27,4 @@ else if (a < b)
 {
     Console.WriteLine("max = " + b + ", min = " + a);
 }
-else if (a == b)
-{
-    Console.WriteLine("Введены одинаковые числа = " + a + "=" + b);
-}
+Console.WriteLine("Введены одинаковые числа: " + a + " = " + b);
